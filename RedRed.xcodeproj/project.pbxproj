@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B17FC601C8327D9005AD6FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17FC5F1C8327D9005AD6FE /* AppDelegate.swift */; };
+		1B17FC621C8327D9005AD6FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17FC611C8327D9005AD6FE /* ViewController.swift */; };
+		1B17FC651C8327D9005AD6FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B17FC631C8327D9005AD6FE /* Main.storyboard */; };
+		1B17FC671C8327D9005AD6FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B17FC661C8327D9005AD6FE /* Assets.xcassets */; };
+		1B17FC6A1C8327D9005AD6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B17FC681C8327D9005AD6FE /* LaunchScreen.storyboard */; };
+		1B17FC751C8327D9005AD6FE /* RedRedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17FC741C8327D9005AD6FE /* RedRedTests.swift */; };
+		1B17FC801C8327D9005AD6FE /* RedRedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B17FC7F1C8327D9005AD6FE /* RedRedUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B17FC711C8327D9005AD6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B17FC541C8327D9005AD6FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B17FC5B1C8327D9005AD6FE;
+			remoteInfo = RedRed;
+		};
+		1B17FC7C1C8327D9005AD6FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B17FC541C8327D9005AD6FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B17FC5B1C8327D9005AD6FE;
+			remoteInfo = RedRed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B17FC5C1C8327D9005AD6FE /* RedRed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedRed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B17FC5F1C8327D9005AD6FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B17FC611C8327D9005AD6FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B17FC641C8327D9005AD6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B17FC661C8327D9005AD6FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B17FC691C8327D9005AD6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B17FC6B1C8327D9005AD6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B17FC701C8327D9005AD6FE /* RedRedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedRedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B17FC741C8327D9005AD6FE /* RedRedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedRedTests.swift; sourceTree = "<group>"; };
+		1B17FC761C8327D9005AD6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B17FC7B1C8327D9005AD6FE /* RedRedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedRedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B17FC7F1C8327D9005AD6FE /* RedRedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedRedUITests.swift; sourceTree = "<group>"; };
+		1B17FC811C8327D9005AD6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B17FC591C8327D9005AD6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17FC6D1C8327D9005AD6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17FC781C8327D9005AD6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B17FC531C8327D9005AD6FE = {
+			isa = PBXGroup;
+			children = (
+				1B17FC5E1C8327D9005AD6FE /* RedRed */,
+				1B17FC731C8327D9005AD6FE /* RedRedTests */,
+				1B17FC7E1C8327D9005AD6FE /* RedRedUITests */,
+				1B17FC5D1C8327D9005AD6FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B17FC5D1C8327D9005AD6FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B17FC5C1C8327D9005AD6FE /* RedRed.app */,
+				1B17FC701C8327D9005AD6FE /* RedRedTests.xctest */,
+				1B17FC7B1C8327D9005AD6FE /* RedRedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B17FC5E1C8327D9005AD6FE /* RedRed */ = {
+			isa = PBXGroup;
+			children = (
+				1B17FC5F1C8327D9005AD6FE /* AppDelegate.swift */,
+				1B17FC611C8327D9005AD6FE /* ViewController.swift */,
+				1B17FC631C8327D9005AD6FE /* Main.storyboard */,
+				1B17FC661C8327D9005AD6FE /* Assets.xcassets */,
+				1B17FC681C8327D9005AD6FE /* LaunchScreen.storyboard */,
+				1B17FC6B1C8327D9005AD6FE /* Info.plist */,
+			);
+			path = RedRed;
+			sourceTree = "<group>";
+		};
+		1B17FC731C8327D9005AD6FE /* RedRedTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B17FC741C8327D9005AD6FE /* RedRedTests.swift */,
+				1B17FC761C8327D9005AD6FE /* Info.plist */,
+			);
+			path = RedRedTests;
+			sourceTree = "<group>";
+		};
+		1B17FC7E1C8327D9005AD6FE /* RedRedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B17FC7F1C8327D9005AD6FE /* RedRedUITests.swift */,
+				1B17FC811C8327D9005AD6FE /* Info.plist */,
+			);
+			path = RedRedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B17FC5B1C8327D9005AD6FE /* RedRed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B17FC841C8327D9005AD6FE /* Build configuration list for PBXNativeTarget "RedRed" */;
+			buildPhases = (
+				1B17FC581C8327D9005AD6FE /* Sources */,
+				1B17FC591C8327D9005AD6FE /* Frameworks */,
+				1B17FC5A1C8327D9005AD6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedRed;
+			productName = RedRed;
+			productReference = 1B17FC5C1C8327D9005AD6FE /* RedRed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B17FC6F1C8327D9005AD6FE /* RedRedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B17FC871C8327D9005AD6FE /* Build configuration list for PBXNativeTarget "RedRedTests" */;
+			buildPhases = (
+				1B17FC6C1C8327D9005AD6FE /* Sources */,
+				1B17FC6D1C8327D9005AD6FE /* Frameworks */,
+				1B17FC6E1C8327D9005AD6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B17FC721C8327D9005AD6FE /* PBXTargetDependency */,
+			);
+			name = RedRedTests;
+			productName = RedRedTests;
+			productReference = 1B17FC701C8327D9005AD6FE /* RedRedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B17FC7A1C8327D9005AD6FE /* RedRedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B17FC8A1C8327D9005AD6FE /* Build configuration list for PBXNativeTarget "RedRedUITests" */;
+			buildPhases = (
+				1B17FC771C8327D9005AD6FE /* Sources */,
+				1B17FC781C8327D9005AD6FE /* Frameworks */,
+				1B17FC791C8327D9005AD6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B17FC7D1C8327D9005AD6FE /* PBXTargetDependency */,
+			);
+			name = RedRedUITests;
+			productName = RedRedUITests;
+			productReference = 1B17FC7B1C8327D9005AD6FE /* RedRedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B17FC541C8327D9005AD6FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Zhishan Zhang";
+				TargetAttributes = {
+					1B17FC5B1C8327D9005AD6FE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3FYG9MS6AK;
+					};
+					1B17FC6F1C8327D9005AD6FE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3FYG9MS6AK;
+						TestTargetID = 1B17FC5B1C8327D9005AD6FE;
+					};
+					1B17FC7A1C8327D9005AD6FE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3FYG9MS6AK;
+						TestTargetID = 1B17FC5B1C8327D9005AD6FE;
+					};
+				};
+			};
+			buildConfigurationList = 1B17FC571C8327D9005AD6FE /* Build configuration list for PBXProject "RedRed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B17FC531C8327D9005AD6FE;
+			productRefGroup = 1B17FC5D1C8327D9005AD6FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B17FC5B1C8327D9005AD6FE /* RedRed */,
+				1B17FC6F1C8327D9005AD6FE /* RedRedTests */,
+				1B17FC7A1C8327D9005AD6FE /* RedRedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B17FC5A1C8327D9005AD6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B17FC6A1C8327D9005AD6FE /* LaunchScreen.storyboard in Resources */,
+				1B17FC671C8327D9005AD6FE /* Assets.xcassets in Resources */,
+				1B17FC651C8327D9005AD6FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17FC6E1C8327D9005AD6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17FC791C8327D9005AD6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B17FC581C8327D9005AD6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B17FC621C8327D9005AD6FE /* ViewController.swift in Sources */,
+				1B17FC601C8327D9005AD6FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17FC6C1C8327D9005AD6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B17FC751C8327D9005AD6FE /* RedRedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B17FC771C8327D9005AD6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B17FC801C8327D9005AD6FE /* RedRedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B17FC721C8327D9005AD6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B17FC5B1C8327D9005AD6FE /* RedRed */;
+			targetProxy = 1B17FC711C8327D9005AD6FE /* PBXContainerItemProxy */;
+		};
+		1B17FC7D1C8327D9005AD6FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B17FC5B1C8327D9005AD6FE /* RedRed */;
+			targetProxy = 1B17FC7C1C8327D9005AD6FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B17FC631C8327D9005AD6FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B17FC641C8327D9005AD6FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B17FC681C8327D9005AD6FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B17FC691C8327D9005AD6FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B17FC821C8327D9005AD6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B17FC831C8327D9005AD6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B17FC851C8327D9005AD6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedRed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.code4fun.zzs.RedRed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B17FC861C8327D9005AD6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedRed/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.code4fun.zzs.RedRed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B17FC881C8327D9005AD6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedRedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.code4fun.zzs.RedRedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedRed.app/RedRed";
+			};
+			name = Debug;
+		};
+		1B17FC891C8327D9005AD6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedRedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.code4fun.zzs.RedRedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedRed.app/RedRed";
+			};
+			name = Release;
+		};
+		1B17FC8B1C8327D9005AD6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedRedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.code4fun.zzs.RedRedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedRed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1B17FC8C1C8327D9005AD6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedRedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.code4fun.zzs.RedRedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedRed;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B17FC571C8327D9005AD6FE /* Build configuration list for PBXProject "RedRed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B17FC821C8327D9005AD6FE /* Debug */,
+				1B17FC831C8327D9005AD6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B17FC841C8327D9005AD6FE /* Build configuration list for PBXNativeTarget "RedRed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B17FC851C8327D9005AD6FE /* Debug */,
+				1B17FC861C8327D9005AD6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B17FC871C8327D9005AD6FE /* Build configuration list for PBXNativeTarget "RedRedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B17FC881C8327D9005AD6FE /* Debug */,
+				1B17FC891C8327D9005AD6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B17FC8A1C8327D9005AD6FE /* Build configuration list for PBXNativeTarget "RedRedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B17FC8B1C8327D9005AD6FE /* Debug */,
+				1B17FC8C1C8327D9005AD6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B17FC541C8327D9005AD6FE /* Project object */;
+}
