@@ -12,10 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    enum defaultKeys {
+        static let keyOne = "badgeNumber"
+    }
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Sound, UIUserNotificationType.Alert, UIUserNotificationType.Badge], categories: nil))
+        application.applicationIconBadgeNumber = 5
         return true
     }
 
@@ -31,6 +37,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillEnterForeground(application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+        let defaults = NSUserDefaults.standardUserDefaults()
+        if let oldValue = defaults.stringForKey(defaultKeys.keyOne) {
+            //        oldValue!.toInt()
+            let nowValue = Int(oldValue)! + 1
+            defaults.setValue(nowValue, forKey: defaultKeys.keyOne)
+            UIApplication.sharedApplication().applicationIconBadgeNumber = nowValue;
+        } else {
+            defaults.setValue("1", forKey: defaultKeys.keyOne)
+            defaults.synchronize()
+        }
+
     }
 
     func applicationDidBecomeActive(application: UIApplication) {
